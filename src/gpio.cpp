@@ -3,7 +3,7 @@
 #include "gpio.h"
 
 using namespace std;
-
+//constructor
 Hx711Gpio::Hx711Gpio(string pin)
     : m_pin(pin),
         m_io(IOFile().c_str())
